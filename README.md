@@ -23,6 +23,20 @@ cd Simple_NodeJS_Http_server
  node server.js
 ```
 
+
+## Using Nodemon to watch the file changes in DEVELOPMENT enviroment
+1) after step 2 in above inistallation process 
+2) run this command to install the Dev-Dependency NodeMon package:
+ ```javascript
+npm install
+```
+3) in order to execute the nodemon mode please run:
+```javascript
+npx nodemon server.js
+```
+
+
+
  ## main file is SERVER.JS
  ```javascript
 // import NodeJS http module
